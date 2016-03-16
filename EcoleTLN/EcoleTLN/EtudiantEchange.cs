@@ -16,7 +16,7 @@
         /// <returns></returns>
         public override string ToString()
         {
-            return base.ToString() + " Uni : " + this.UniOrigine; 
+            return base.ToString() + "\n    Uni : " + this.UniOrigine; 
         }
     }
 }

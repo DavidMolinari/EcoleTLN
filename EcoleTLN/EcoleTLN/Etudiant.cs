@@ -17,7 +17,7 @@
         /// <returns></returns>
         public override string ToString()
         {
-            return base.ToString() + "Section : " + this.Section + " Moyenne :" + this.Moyenne;
+            return base.ToString() + "    Section : " + this.Section + "\n    Moyenne : " + this.Moyenne;
         }
     }
 

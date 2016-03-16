@@ -12,7 +12,7 @@
         /// <returns></returns>
         public override string ToString()
         {
-            return " Nom : " + this.Nom + " annee : " + this.Annee + ' '; 
+            return "    Nom : " + this.Nom + "\n    annee : " + this.Annee + '\n'; 
         }
 
         public Personne(string nom, int annee)
