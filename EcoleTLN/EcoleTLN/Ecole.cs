@@ -15,10 +15,7 @@ namespace EcoleTLN
         {
             foreach (var i in listPersonnes)
             {
-                if (i.GetType() is EtudiantRegulier)
-                {
-                    i.ToString();
-                }
+                Console.WriteLine(i.ToString());
             }
 
         }

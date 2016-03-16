@@ -4,8 +4,9 @@
     {
         public string UniOrigine { get; set; }
 
+        public double Moyenne { get; set; }
 
-        public EtudiantEchange(string uniOrigine, string section, double moyenne, string nom, int annee):base(moyenne, section, nom, annee)
+        public EtudiantEchange(string uniOrigine, string section, string nom, int annee):base(section, nom, annee)
         {
             this.UniOrigine = uniOrigine;
         }
@@ -16,7 +17,7 @@
         /// <returns></returns>
         public override string ToString()
         {
-            return base.ToString() + "\n    Uni : " + this.UniOrigine; 
+            return "Etudiant d'échange : \n" + base.ToString() + "\n    Uni : " + this.UniOrigine; 
         }
     }
 }

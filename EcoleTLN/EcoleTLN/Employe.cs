@@ -13,7 +13,7 @@
 
         public override string ToString()
         {
-            return base.ToString() + "Laboratoire : " + this.Laboratoire + "Salaire : " + this.Salaire;
+            return base.ToString() + "    Laboratoire : " + this.Laboratoire + "\n    Salaire : " + this.Salaire;
         }
     }
 }

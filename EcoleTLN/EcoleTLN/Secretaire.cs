@@ -7,5 +7,10 @@
             // Oui je suis vide, huehuehuehue.
         }
 
+        public override string ToString()
+        {
+            return "Secrétaire : \n" + base.ToString();
+        }
+
     }
 }

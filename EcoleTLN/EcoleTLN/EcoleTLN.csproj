@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Ecole.cs" />
     <Compile Include="Employe.cs" />
+    <Compile Include="Enseignant.cs" />
     <Compile Include="Etudiant.cs" />
     <Compile Include="EtudiantEchange.cs" />
     <Compile Include="EtudiantRegulier.cs" />
