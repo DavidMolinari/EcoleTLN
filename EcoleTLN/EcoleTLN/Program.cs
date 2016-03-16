@@ -10,6 +10,15 @@ namespace EcoleTLN
     {
         static void Main(string[] args)
         {
+            // Bind pour Console.WriteLine parce que je suis fénant
+           
+            Action<object> cw = Console.WriteLine;
+            cw("Print Something");
+
+
+
+
+            /// Liste de Test
             List<EtudiantEchange> etudiantsEchanges = new List<EtudiantEchange>();
             etudiantsEchanges.Add(new EtudiantEchange("MEHAYO", "SSC", 19.87, "Jean Bernard", 2000));
             etudiantsEchanges.Add(new EtudiantEchange("BRA", "SSC", 19.87, "Jean Norbert", 2000));
@@ -24,7 +33,7 @@ namespace EcoleTLN
 
             foreach (var meh in etudiantsEchanges)
             {
-                Console.WriteLine(meh.ToString());
+                cw(meh.ToString());
             }
 
             Console.Read();
