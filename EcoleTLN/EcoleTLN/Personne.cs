@@ -14,7 +14,7 @@
         /// <returns></returns>
         public override string ToString()
         {
-            return " Nom : " + this.Nom + " annee : " + this.Annee; 
+            return " Nom : " + this.Nom + " annee : " + this.Annee + ' '; 
         }
 
         public Personne(string nom, int annee)
