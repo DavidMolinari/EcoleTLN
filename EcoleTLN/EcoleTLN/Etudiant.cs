@@ -17,6 +17,10 @@ namespace EcoleTLN
             this.Moyenne = moyenne;
         }
 
+        /// <summary>
+        /// Affiche les informations de la class
+        /// </summary>
+        /// <returns></returns>
         public override string ToString()
         {
             return base.ToString() + "Section : " + this.Section + "Moyenne :" + this.Moyenne;
