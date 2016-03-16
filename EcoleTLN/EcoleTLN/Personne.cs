@@ -10,9 +10,7 @@ namespace EcoleTLN
     {
         public string Nom { get; set; }
         public int Annee { get; set; }
-        public string Laboratoire { get; set; }
-        public int Salaire { get; set; }
-        public string SectionEnseignement { get; set; }
+
 
         /// <summary>
         /// 
