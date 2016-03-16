@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EcoleTLN.Employe">
+    <Position X="4.25" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAEACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoleTLN.Etudiant">
+    <Position X="9.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Etudiant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoleTLN.EtudiantEchange">
+    <Position X="8.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAAAAgAAA=</HashCode>
+      <FileName>EtudiantEchange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoleTLN.EtudiantRegulier">
+    <Position X="10.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EtudiantRegulier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoleTLN.Personne">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAACAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Personne.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoleTLN.Enseignant">
+    <Position X="3" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enseignant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoleTLN.Secretaire">
+    <Position X="5.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Secretaire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
