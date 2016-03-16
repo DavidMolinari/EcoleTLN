@@ -1,24 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EcoleTLN
+﻿namespace EcoleTLN
 {
- 
     public class EtudiantRegulier : Etudiant
     {
+        private double moyenne;
 
+        public EtudiantRegulier(double moyenne, string section, string nom, int annee):base(section, nom, annee)
+        {
+            this.moyenne = moyenne;
+        }
 
         public override string ToString()
         {
-            return base.ToString();
+            return "Etudiant régulier : \n" + base.ToString() + "\n     Moyenne : " + this.moyenne;
         }
 
-        public EtudiantRegulier(double moyenne, string section, string nom, int annee):base(moyenne, section, nom, annee)
-        {
-
-        }
     }
 }

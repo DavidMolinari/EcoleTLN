@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EcoleTLN
+﻿namespace EcoleTLN
 {
     public abstract class Personne
     {
@@ -13,12 +7,12 @@ namespace EcoleTLN
 
 
         /// <summary>
-        /// 
+        /// Affiche les informations de la class
         /// </summary>
         /// <returns></returns>
         public override string ToString()
         {
-            return " Nom : " + this.Nom + " annee : " + this.Annee; 
+            return "    Nom : " + this.Nom + "\n    annee : " + this.Annee + '\n'; 
         }
 
         public Personne(string nom, int annee)

@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace EcoleTLN
 {
@@ -13,28 +9,22 @@ namespace EcoleTLN
             // Bind pour Console.WriteLine parce que je suis fénant
            
             Action<object> cw = Console.WriteLine;
+            Ecole uneEcole = new Ecole();
             cw("Print Something");
 
 
 
 
-            /// Liste de Test
-            List<EtudiantEchange> etudiantsEchanges = new List<EtudiantEchange>();
-            etudiantsEchanges.Add(new EtudiantEchange("MEHAYO", "SSC", 19.87, "Jean Bernard", 2000));
-            etudiantsEchanges.Add(new EtudiantEchange("BRA", "SSC", 19.87, "Jean Norbert", 2000));
-
-            etudiantsEchanges.Add(new EtudiantEchange("BRO", "SSC", 19.87, "Jean Phillipe", 2000));
-
-            etudiantsEchanges.Add(new EtudiantEchange("BRI", "SSC", 19.87, "Jean Mahmah", 2000));
-
-            etudiantsEchanges.Add(new EtudiantEchange("MEHAYO", "SSC", 19.87, "Jean meh", 2000));
+            // Liste de Test
+            uneEcole.Ajouter(new EtudiantRegulier(6.0, "SSC", "Gaston Peutimide", 2013));
+            uneEcole.Ajouter(new EtudiantRegulier(2.5, "SSC", "Yvan Rattrapeur", 2011));
+            uneEcole.Ajouter(new EtudiantEchange("KTH", "Informatique", "Bjorn Borgue", 2012));
+            uneEcole.Ajouter(new Enseignant("Mathieu Matheu", 1998, "LMEP", 10000, "Physique"));
+            uneEcole.Ajouter(new Secretaire("Sophie Scibona", 2005, "LMT", 5000));
 
 
+            uneEcole.AfficheListeDesPersonnes();
 
-            foreach (var meh in etudiantsEchanges)
-            {
-                cw(meh.ToString());
-            }
 
             Console.Read();
         }

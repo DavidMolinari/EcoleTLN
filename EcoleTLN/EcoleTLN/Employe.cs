@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace EcoleTLN
+﻿namespace EcoleTLN
 {
     public abstract class Employe : Personne
     {
@@ -19,7 +13,7 @@ namespace EcoleTLN
 
         public override string ToString()
         {
-            return base.ToString() + "Laboratoire : " + this.Laboratoire + "Salaire : " + this.Salaire;
+            return base.ToString() + "    Laboratoire : " + this.Laboratoire + "\n    Salaire : " + this.Salaire;
         }
     }
 }
