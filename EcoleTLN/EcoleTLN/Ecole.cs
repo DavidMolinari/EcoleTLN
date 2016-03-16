@@ -22,7 +22,7 @@ namespace EcoleTLN
             }
 
             cw("Parmi les " + listPersonnes.Count + " personnes de l'écoleTLN, " + this.nbEtudiants + " Sont des étudiants.");
-            cw("Ils sont à l'école depuis en ");
+            cw("Ils sont à l'école depuis en moyenne " + this.MoyenneAge(this.listPersonnes) + " ans");
 
             foreach (var i in listPersonnes)
             {
@@ -50,6 +50,21 @@ namespace EcoleTLN
             {
                 return false;
             }
+        }
+
+        private float MoyenneAge (List<Personne> listPersonnes)
+        {
+            DateTime moment = DateTime.Now;
+            float result = 0;
+            int nbrPers = listPersonnes.Count;
+
+            foreach(var i in listPersonnes)
+            {
+                result += moment.Year - i.Annee;
+            }
+
+
+            return result / nbrPers;
         }
     }
 }
