@@ -6,6 +6,13 @@
 
         public double Moyenne { get; set; }
 
+        /// <summary>
+        /// Constructeur EtudiantEchange qui hérite du constructeur d'un Etudiant
+        /// </summary>
+        /// <param name="uniOrigine"></param>
+        /// <param name="section"></param>
+        /// <param name="nom"></param>
+        /// <param name="annee"></param>
         public EtudiantEchange(string uniOrigine, string section, string nom, int annee):base(section, nom, annee)
         {
             this.UniOrigine = uniOrigine;
@@ -17,7 +24,7 @@
         /// <returns></returns>
         public override string ToString()
         {
-            return "Etudiant d'échange : \n" + base.ToString() + "\n    Uni : " + this.UniOrigine; 
+            return "Etudiant d'échange : \n" + base.ToString() + "\n\tUni : " + this.UniOrigine; 
         }
     }
 }

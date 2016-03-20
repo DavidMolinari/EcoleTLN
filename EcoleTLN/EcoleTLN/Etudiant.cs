@@ -5,6 +5,12 @@
         public string Section { get; set; }
         
 
+        /// <summary>
+        /// Constructeur Etudiant herite du constructeur Personne
+        /// </summary>
+        /// <param name="section"></param>
+        /// <param name="nom"></param>
+        /// <param name="annee"></param>
         public Etudiant(string section, string nom, int annee) : base(nom, annee)
         {
             this.Section = section;
@@ -16,7 +22,7 @@
         /// <returns></returns>
         public override string ToString()
         {
-            return base.ToString() + "    Section : " + this.Section;
+            return base.ToString() + "\tSection : " + this.Section;
         }
     }
 

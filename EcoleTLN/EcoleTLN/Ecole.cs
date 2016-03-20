@@ -43,13 +43,8 @@ namespace EcoleTLN
         /// <returns>Etudiant ou non</returns>
         private bool EstEtudiant(Personne unePersonne)
         {
-            if (unePersonne is Etudiant)
-            {
-                return true;
-            } else
-            {
-                return false;
-            }
+            return (unePersonne is Etudiant);
+
         }
 
         private float MoyenneAge (List<Personne> listPersonnes)

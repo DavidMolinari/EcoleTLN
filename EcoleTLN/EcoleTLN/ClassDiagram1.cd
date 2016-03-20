@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="EcoleTLN.Ecole" Collapsed="true">
+    <Position X="7.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEEAAAAEAAAAAAQAAAgAABAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>Ecole.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoleTLN.Employe">
+    <Position X="5.5" Y="3" Width="1.5" />
+    <InheritanceLine Type="EcoleTLN.Personne" FixedToPoint="true">
+      <Path>
+        <Point X="4.25" Y="2.44" />
+        <Point X="4.25" Y="2.69" />
+        <Point X="6.125" Y="2.69" />
+        <Point X="6.125" Y="3.625" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAEACAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Employe.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoleTLN.Enseignant">
+    <Position X="5.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAACAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Enseignant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoleTLN.Etudiant">
+    <Position X="2" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Etudiant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoleTLN.EtudiantEchange">
+    <Position X="1" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAQAAAAAAAgAAA=</HashCode>
+      <FileName>EtudiantEchange.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoleTLN.EtudiantRegulier">
+    <Position X="3.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAABAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EtudiantRegulier.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoleTLN.Personne">
+    <Position X="3.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAACAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Personne.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoleTLN.Program" Collapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EcoleTLN.Secretaire">
+    <Position X="7.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Secretaire.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
